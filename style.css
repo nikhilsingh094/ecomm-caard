@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #001422;
+    margin: 0;
+   
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.circle{
+    border-radius: 100%;
+    position: absolute;
+}
+.circle-1{
+    height: 120px;
+    width: 120px;
+    background-image: radial-gradient(69.62% 69.62% at 50.00% 50.00% , #ea8bfa, #7526b8);
+    top: -43px;
+    left: -60px;
+}
+.circle-2{
+    height: 360px;
+    width: 360px;
+    background-image: radial-gradient(69.62% 69.62% at 50.00% 50.00% , #ff00c7, #7526b8);
+    top: -87px;
+    left: 249px;
+}
+.circle-3{
+    height: 220px;
+    width: 220px;
+    background-image: radial-gradient(69.62% 69.62% at 50.00% 50.00% , #9d33af, #7526b8);
+    top: 299px;
+    left: -103px;
+}
+
+.card-container{
+    position: relative;  
+}
+
+.card{
+    max-width: 400px;
+    padding: 18px;
+    background-image: linear-gradient(148deg,rgba(255,255,255,0.40) 0%, rgba(255,255,255,0.60) 50%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.card-content{
+   border: 0.755px solid rgba(255, 255, 255, 0.30);
+   border-radius: 10px; 
+   color: rgb(9, 9, 59);
+}
+
+.card-img{
+    width: 100%;
+    vertical-align: middle;
+   
+}
+
+.tag-heart{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 18px;
+    margin-top: 22px;
+}
+
+.lipstick{
+    background-color: rgba(241, 198, 68, 0.24);
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #705608;
+    padding: 2px 6px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    padding-inline: 18px;
+}
+
+.rating-val{
+    color: #705608;
+    font-size: 14px;
+    font-weight: 400;
+    margin-inline:8px;
+}
+
+.count{
+  
+    font-size: 14px;
+    
+
+}
+
+.title{
+   font-size: 18px;
+   padding-inline: 18px;
+   font-weight: 700; 
+}
+
+.sub-title{
+    font-size: 12px;
+    font-weight: 500;
+    padding-inline: 18px;
+}
+.btn{
+    margin-top: 8px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-block: 30px;
+    border-top: 1px solid rgba(255,255,255,0.24);
+    cursor: pointer;
+}
